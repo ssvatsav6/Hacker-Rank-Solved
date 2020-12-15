@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int camelcase(string &s) {
+    int noOfWords=0;
+    for(char c : s)
+    {
+        if(int(c)>=65 && int (c)<=90)
+        {
+            noOfWords++;
+        }
+        
+    }
+    return ++noOfWords;
+}
